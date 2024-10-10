@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 480px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+#drop-area.highlight {
+    border-color: purple;
+}
+
+p {
+    margin-top: 0;
+}
+
+.my-form {
+    margin-bottom: 10px;
+}
+
+#fileElem {
+    display: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button:hover {
+    background: #ddd;
+}
+
+.preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#preview {
+    margin-top: 10px;
+}
+
+#usage-count {
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#markdown-content {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    white-space: pre-wrap;
+}
+
+#download-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#download-btn:hover {
+    background-color: #45a049;
+}
+
+/* 目录*/
